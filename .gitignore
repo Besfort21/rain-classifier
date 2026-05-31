@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.venv/
+
+# Data and models
+data/*.db
+data/*.csv
+models/*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# Outputs
+outputs/
+
+# OS
+.DS_Store
+Thumbs.db
