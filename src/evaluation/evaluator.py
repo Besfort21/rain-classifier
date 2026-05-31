@@ -107,6 +107,6 @@ class ModelEvaluator:
         baseline_acc = round(accuracy_score(y_test, y_baseline), 4)
         baseline_f1 = round(f1_score(y_test, y_baseline, zero_division=0), 4)
         print("-" * 45)
-        print(f"  Baseline (always 'no rain')")
+        print("  Baseline (always 'no rain')")
         print(f"  Accuracy: {baseline_acc}   F1: {baseline_f1}")
         print("=" * 45 + "\n")
